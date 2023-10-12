@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2f1893;
+}
+.container {
+  padding-right: 80px;
+  padding-left: 80px;
+  margin: 20px 60px 60px 60px;
+}
+.header {
+  color: white;
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-left {
+  font-size: 20px;
+  font-weight: bold;
+}
+ul li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 40px;
+}
+li:hover {
+  color: grey;
+}
+.button1 {
+  background-color: rgb(223, 54, 127);
+  border: 6px solid rgb(223, 54, 127);
+  padding: 2px 10px;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  color: black;
+}
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-section-left {
+  color: white;
+  padding-right: 150px;
+}
+.heading {
+  font-size: 30px;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+}
+.content {
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 9px;
+  padding-right: 150px;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+.form {
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  background-color: #fff;
+  padding: 60px;
+  color: grey;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.form h1{
+  font-size: 40px;
+}
+.form-fields {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form-input {
+  line-height: 30px;
+  width: 92%;
+  border: 1px solid grey;
+  color: grey;
+  margin: 10px;
+  padding-left: 15px;
+
+  border-radius: 25px;
+}
+.form h1 {
+  color: #18095e;
+}
+.terms {
+  display: flex;
+  font-size: 12px;
+}
+.button {
+  border-radius: 25px;
+  width: 100%;
+  cursor: pointer;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+.checkbox {
+  accent-color: rgb(79, 208, 212);
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.separator::before,
+.separator::after {
+  flex: 1;
+  content: "";
+  padding: 1px;
+  background-color: rgb(113, 110, 110);
+  margin: 5px;
+}
+.signin-btn {
+  background-color: white;
+  border: none;
+  color: aqua;
+  cursor: pointer;
+}
+#btn1 {
+  background-color: #3333cc;
+  border: 6px solid #3333cc;
+}
+#btn2 {
+  border: 6px solid #33adff;
+  background-color: #33adff;
+}
+#btn3 {
+  height: 40px;
+  width: 150px;
+}
